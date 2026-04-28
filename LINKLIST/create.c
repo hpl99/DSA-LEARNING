@@ -24,14 +24,14 @@ void create (int a[],int n){
 
 void display(struct node *s){
     while(s->next!=NULL){
-        printf("%d ",s->data);
+        printf("%d -> ",s->data);
         s=s->next;
     }
 }
-
 
 int main(){
     int a[6]={1,2,3,8,9,7};
     create(a,7);
     display(s);
+    printf("NULL");
 }
