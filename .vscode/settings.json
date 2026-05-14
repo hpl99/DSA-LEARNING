@@ -1,5 +1,0 @@
-{
-    "git.enabled": true,
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
-}
